@@ -65,7 +65,9 @@ export const Experiences = styled.div`
 `
 export const Exp = styled.div`
   text-align: center;
-
+  h3 {
+    color: ${({ theme }) => theme.colors.text_p};
+  }
   span {
     color: ${({ theme }) => theme.colors.text_s};
     font-size: ${({ theme }) => theme.font.size_s};

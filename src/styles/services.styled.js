@@ -99,12 +99,13 @@ export const ModalList = styled.div`
   li {
     padding: 0.5rem;
     width: 100%;
-    background: #fff;
+    background: none;
     box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.1);
     transition: 0.5s ease-out;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    color: ${({ theme }) => theme.colors.text_s};
   }
   li span {
     color: #25bcff;
