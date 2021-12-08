@@ -8,6 +8,7 @@ export const FooterContainer = styled.footer`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  min-height: 10rem;
   color: ${({ theme }) => theme.colors.text_w_p};
   @media (max-width: 620px) {
     flex-direction: column;
