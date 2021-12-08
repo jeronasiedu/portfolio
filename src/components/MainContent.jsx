@@ -64,13 +64,25 @@ const MainContent = () => {
       animate="visible"
     >
       <IconsContainer variants={iconVariant}>
-        <IconButton aria-label="github">
+        <IconButton
+          aria-label="github"
+          component="a"
+          href="https://github.com/jeronasiedu"
+        >
           <BsGithub color={color} />
         </IconButton>
-        <IconButton aria-label="linkedin">
+        <IconButton
+          aria-label="linkedin"
+          component="a"
+          href="https://www.linkedin.com/in/norej-udeisa-a49724211/"
+        >
           <FiLinkedin color={color} />
         </IconButton>
-        <IconButton aria-label="github">
+        <IconButton
+          aria-label="twitter"
+          component="a"
+          href="https://twitter.com/norej_udeisa"
+        >
           <FiTwitter color={color} />
         </IconButton>
       </IconsContainer>
