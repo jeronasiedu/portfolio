@@ -107,11 +107,13 @@ export const portfolio = [
     image: laundry,
     title: 'Modern Website',
     desc: 'Website laundry website adaptable on all devices for keeping track of sales ',
+    href: 'https://github.com/jeronasiedu/laundry',
   },
   {
     image: reminder,
     title: 'Reminder App',
     desc: 'Beautiful reminder app filled with UI components and animated interactions ',
+    href: 'https://jeronnotes.netlify.app',
   },
   {
     image: portfolioImage,

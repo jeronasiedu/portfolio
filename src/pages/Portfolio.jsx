@@ -50,7 +50,7 @@ const Portfolio = () => {
   )
 }
 
-const SwipeElement = ({ image, title, desc }) => {
+const SwipeElement = ({ image, title, desc, href }) => {
   return (
     <SwipeContainer>
       <SwipeImage data-swiper-parallax="-500">
@@ -61,7 +61,7 @@ const SwipeElement = ({ image, title, desc }) => {
           {title}
         </h3>
         <p data-swiper-parallax="100">{desc}</p>
-        <Button>
+        <Button as="a" href={href} target="_blank">
           demo
           <BiArrowToRight className="arrow" size={20} />
         </Button>
