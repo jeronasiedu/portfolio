@@ -29,6 +29,7 @@ const Footer = () => {
           }}
           component="a"
           href="https://www.github.com/jeronasiedu"
+          target="_blank"
         >
           <BsGithub />
         </IconButton>
@@ -39,6 +40,7 @@ const Footer = () => {
           }}
           component="a"
           href="https://www.linkedin.com/in/norej-udeisa-a49724211/"
+          target="_blank"
         >
           <FiLinkedin />
         </IconButton>
@@ -49,6 +51,7 @@ const Footer = () => {
           }}
           component="a"
           href="https://twitter.com/norej_udeisa"
+          target="_blank"
         >
           <FiTwitter />
         </IconButton>
