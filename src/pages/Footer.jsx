@@ -27,6 +27,8 @@ const Footer = () => {
           sx={{
             color: '#fff',
           }}
+          component="a"
+          href="https://www.github.com/jeronasiedu"
         >
           <BsGithub />
         </IconButton>
@@ -35,14 +37,18 @@ const Footer = () => {
           sx={{
             color: '#fff',
           }}
+          component="a"
+          href="https://www.linkedin.com/in/norej-udeisa-a49724211/"
         >
           <FiLinkedin />
         </IconButton>
         <IconButton
-          aria-label="github"
+          aria-label="twitter"
           sx={{
             color: '#fff',
           }}
+          component="a"
+          href="https://twitter.com/norej_udeisa"
         >
           <FiTwitter />
         </IconButton>
