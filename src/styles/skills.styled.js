@@ -16,6 +16,9 @@ export const Title = styled.div`
     letter-spacing: 1px;
     color: ${({ theme }) => theme.colors.text_p};
   }
+  span {
+    margin-bottom: 1rem;
+  }
 `
 export const Skill = styled.div``
 export const Header = styled.div`

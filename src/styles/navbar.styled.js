@@ -21,7 +21,7 @@ export const Navbar = styled.nav`
 
   @media (max-width: 620px) {
     justify-content: stretch;
-    min-height: 3rem;
+    min-height: 2.7rem;
   }
 `
 export const NavContainer = styled.ul`

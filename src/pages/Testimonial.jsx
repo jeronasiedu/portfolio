@@ -31,7 +31,7 @@ const Testimonial = () => {
           dynamicBullets: true,
           clickable: true,
         }}
-        speed={3000}
+        speed={1000}
         grabCursor={true}
       >
         {testimonial.map((item, key) => {

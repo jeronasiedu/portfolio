@@ -17,8 +17,8 @@ import {
 } from '../styles/skills.styled'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useTheme } from 'styled-components'
-const SkillMain = ({ duration, title, data, icon }) => {
-  const [open, setOpen] = useState(true)
+const SkillMain = ({ duration, title, data, icon, initState }) => {
+  const [open, setOpen] = useState(initState)
   const toggleOpen = () => {
     setOpen(!open)
   }

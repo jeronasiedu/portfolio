@@ -9,6 +9,7 @@ const skills = [
     title: 'Frontend Developer',
     duration: 'More than a year',
     icon: 'BsBraces',
+    initState: true,
     data: [
       {
         name: 'HTML',
@@ -32,6 +33,7 @@ const skills = [
     title: 'Backend Developer',
     duration: 'More than 6 months',
     icon: 'FiDatabase',
+    initState: false,
     data: [
       {
         name: 'NODE',
@@ -55,6 +57,7 @@ const skills = [
     title: 'Designer',
     duration: 'More than 2 months',
     icon: 'designIcon',
+    initState: false,
     data: [
       {
         name: 'PHOTOSHOP',

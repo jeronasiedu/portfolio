@@ -20,7 +20,7 @@ export const PortfolioContainer = styled.section`
   }
   .swiper-slide {
     padding: 0.5rem;
-    border: 1px solid #dedede;
+    border: 0.8px solid ${({ theme }) => theme.colors.text_s};
     border-radius: 4px;
   }
 `
