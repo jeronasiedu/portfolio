@@ -122,7 +122,7 @@ export const portfolio = [
     image: portfolioImage,
     title: 'Portfolio',
     desc: 'A well designed portfolio, filled with inspiration and crafted to the very best',
-    href: 'https://github.com/jeronasiedu',
+    href: 'https://jeron.netlify.app',
   },
 ]
 export const testimonial = [
