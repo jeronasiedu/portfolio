@@ -54,6 +54,9 @@ const MainContent = () => {
     visible: {
       opacity: 1,
       x: 0,
+      transition: {
+        delay: 2,
+      },
     },
   }
   return (

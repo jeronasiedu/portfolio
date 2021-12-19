@@ -17,7 +17,7 @@ export const Navbar = styled.nav`
   right: 0;
   backdrop-filter: blur(10px);
 
-  transition: 0.5s;
+  transition: 0.6s;
 
   @media (max-width: 620px) {
     justify-content: stretch;
@@ -32,7 +32,6 @@ export const NavContainer = styled.ul`
   .elements {
     .activeLink {
       border-bottom: 2px solid ${({ theme }) => theme.colors.active};
-      transition: 0.3s;
     }
   }
 
@@ -47,9 +46,11 @@ export const NavContainer = styled.ul`
       transition: 0.5s ease;
       width: 100%;
       margin-right: 20%;
+      opacity: 0;
     }
     .elements.active {
-      height: 15rem;
+      opacity: 1;
+      height: 17rem;
     }
   }
 `

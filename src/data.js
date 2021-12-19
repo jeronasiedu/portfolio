@@ -4,6 +4,7 @@ import reminder from './images/reminder.png'
 import review1 from './images/review1.jpg'
 import review3 from './images/review3.jpg'
 import review4 from './images/review4.jpg'
+import todo from './images/todo.png'
 const skills = [
   {
     title: 'Frontend Developer',
@@ -25,7 +26,7 @@ const skills = [
       },
       {
         name: 'REACT',
-        percent: 55,
+        percent: 70,
       },
     ],
   },
@@ -123,6 +124,12 @@ export const portfolio = [
     title: 'Portfolio',
     desc: 'A well designed portfolio, filled with inspiration and crafted to the very best',
     href: 'https://jeron.netlify.app',
+  },
+  {
+    image: todo,
+    title: 'Todo',
+    desc: `A Beautiful todo app with with the best UI you've ever seen. Check it out`,
+    href: 'https://j-tech-todo.netlify.app',
   },
 ]
 export const testimonial = [
