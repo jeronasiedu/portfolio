@@ -129,7 +129,7 @@ export const portfolio = [
     image: todo,
     title: 'Todo',
     desc: `A Beautiful todo app with with the best UI you've ever seen. Check it out`,
-    href: 'https://j-tech-todo.netlify.app',
+    href: 'https://jeron-todo.netlify.app',
   },
 ]
 export const testimonial = [
